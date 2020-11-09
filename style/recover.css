@@ -1,0 +1,84 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+        --color-background:#59CAFA;
+        --color-text:#fff;
+        --color-button:#FF748E;
+}
+body{
+    background-color:var(--color-background);
+    color: var(--color-text);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+}
+.recover-Password{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    align-items: center;
+}
+.recover-Password button{
+    height: 7rem;
+    width: 24rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    font: 400 2.5rem 'Roboto', sans-serif;
+    background-color: var(--color-button);
+    color: #fff;
+}
+.recover-Password button:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.user-Text{
+    padding-top: 3rem;
+}
+.user-Text h3{
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;  
+}
+.user-Text h4{
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#title-Logo{
+    margin: 6rem;
+    font-size: 8.2rem;
+
+}
+ #user-email{
+    border: none;
+    border-bottom: 0.3rem solid;
+    background: var(--color-background);
+    width: 50rem;
+    margin: 2rem;
+    text-align: center;
+    font: 400 3rem 'Roboto', sans-serif;
+    color: var(--color-text);
+    padding: 0.5rem;
+ }
+ #user-email::placeholder{
+     color: var(--color-text);
+     font: 400 3rem 'Roboto', sans-serif;
+ }
+
