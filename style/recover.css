@@ -106,6 +106,15 @@ nav a:hover{
 
 }
 
+#send-area h1{
+    width: 80vw;
+    font: 400 1.5rem 'Roboto', sans-serif;
+    background-color: #FF748E;
+    border-radius: 0.8rem;
+    text-align: center;
+    padding: 0.7rem;
+}
+
 
 
 /* Responsividade */
