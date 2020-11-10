@@ -22,15 +22,78 @@ body{
 .recover-Password{
     display: flex;
     flex-direction: column;
-    padding: 4rem;
     align-items: center;
+    margin: 10rem;
+}
+.recover-Password button{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    outline: none;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--color-button);
+    color: var(--color-text);
+    font: 400 1.8rem 'Roboto', sans-serif;
+}
+.recover-Password button:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+.user-Text{
+    margin-top: 5rem;
+    text-align: center;
+}
+.user-Text h3{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;  
+}
+.user-Text h4{
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+#user-email{
+    border: 0; 
+    outline: 0;
+    border-bottom: 0.3rem solid var(--color-text);
+    background-color: var(--color-background);
+    padding:0.3rem;
+    text-align: center;
+    font: 400 1.8rem 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+#user-email::placeholder{
+    color: var(--color-text);
+}
+
+#title-Logo{
+    margin: 6rem;
+    font-size: 5rem;
+
+}
+
+
+
+/* Responsividade */
+
+@media (min-width:1024px){
+.recover-Password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
 }
 .recover-Password button{
     height: 7rem;
     width: 24rem;
-    margin-top: 1rem;
+    margin-top: 0.3rem;
     border: none;
     border-radius: 0.8rem;
+    outline: 0;
     font: 400 2.5rem 'Roboto', sans-serif;
     background-color: var(--color-button);
     color: #fff;
@@ -41,10 +104,10 @@ body{
 }
 
 .user-Text{
-    padding-top: 3rem;
+    margin-top: 0.8rem;
 }
 .user-Text h3{
-    padding: 2rem;
+    margin: 1rem;
     font-size: 3rem;
     font-weight: 700;  
 }
@@ -70,6 +133,7 @@ body{
     border: none;
     border-bottom: 0.3rem solid;
     background: var(--color-background);
+    outline: 0;
     width: 50rem;
     margin: 2rem;
     text-align: center;
@@ -82,3 +146,4 @@ body{
      font: 400 3rem 'Roboto', sans-serif;
  }
 
+}
