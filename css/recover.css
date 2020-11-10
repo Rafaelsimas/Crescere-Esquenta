@@ -1,0 +1,224 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    
+}
+html{
+    font-size: 62.5%; /*rem controller*/
+}
+/*Colors*/
+:root{
+        --color-background:#59CAFA;
+        --color-text:#fff;
+        --color-button:#FF748E;
+}
+body{
+    background-color:var(--color-background);
+    color: var(--color-text);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/*nav styling*/
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1rem;
+    
+}
+nav a{
+    text-decoration: none;
+    font: 400 1.8rem 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+
+nav a:hover{
+    font-weight: 700;
+}
+
+
+/*class*/
+
+/*div of inputs*/
+.recover-Password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 9rem;
+}
+.recover-Password button{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    outline: none;
+    height: 5rem;
+    width: 10rem;
+    background-color: var(--color-button);
+    color: var(--color-text);
+    font: 400 1.8rem 'Roboto', sans-serif;
+}
+
+.recover-Password button:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*div of instructions*/
+.instructions-Text{
+    margin-top: 5rem;
+    text-align: center;
+}
+.instructions-Text h3{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;  
+}
+.instructions-Text h4{
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/*ids*/
+
+/*Input text for recover e-mail*/
+#user-email{
+    border: 0; 
+    outline: 0;
+    border-bottom: 0.3rem solid var(--color-text);
+    background-color: var(--color-background);
+    padding:0.3rem;
+    text-align: center;
+    font: 400 1.8rem 'Roboto', sans-serif;
+    color: var(--color-text);
+    width:80vw;
+}
+#user-email::placeholder{
+    color: var(--color-text);
+}
+/*Title of project*/
+#title-Logo{
+    margin: 8rem;
+    font-size: 5rem;
+    
+}
+
+#send-area h1{
+    width: 80vw;
+    font: 400 1.5rem 'Roboto', sans-serif;
+    background-color: #FF748E;
+    border-radius: 0.8rem;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+
+
+/* Responsividade */
+@media (min-width:1024px){
+
+    /*nav styling*/
+    nav{
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: 4rem;
+        
+        
+    }
+    nav a{
+        text-decoration: none;
+        font: 400 2.5rem 'Roboto', sans-serif;
+        color: var(--color-text);
+    }
+    nav a:hover{
+        font-weight: 700;
+    }
+
+/*class*/
+
+/*div of inputs*/
+.recover-Password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.recover-Password button{
+    height: 7rem;
+    width: 24rem;
+    margin-top: 0.3rem;
+    border: none;
+    border-radius: 0.8rem;
+    outline: 0;
+    font: 400 2.5rem 'Roboto', sans-serif;
+    background-color: var(--color-button);
+    color: #fff;
+}
+.recover-Password button:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*div of instructions*/
+.instructions-Text{
+    margin-top: 0.8rem;
+}
+.instructions-Text h3{
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 700;  
+}
+.instructions-Text h4{
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+/*ids*/
+
+/*div that encompasses other */
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/*title of project*/
+#title-Logo{
+    margin: 6rem;
+    font-size: 8.2rem;
+    
+}
+/*Input text for recover e-mail*/
+ #user-email{
+    border: none;
+    border-bottom: 0.3rem solid;
+    background: var(--color-background);
+    outline: 0;
+    width: 50rem;
+    margin: 2rem;
+    text-align: center;
+    font: 400 3rem 'Roboto', sans-serif;
+    color: var(--color-text);
+    padding: 0.5rem;
+ }
+ #user-email::placeholder{
+     color: var(--color-text);
+     font: 400 3rem 'Roboto', sans-serif;
+    }
+
+#send-area h1{
+    margin-top: 5rem;
+    font: 400 2.8rem 'Roboto', sans-serif;
+    background-color: #FF748E;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+
+}
