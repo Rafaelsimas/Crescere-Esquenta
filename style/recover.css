@@ -19,6 +19,19 @@ body{
     text-align: center;
     font-family: 'Roboto', sans-serif;;
 }
+
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1rem;
+    
+}
+nav a{
+    text-decoration: none;
+    font: 700 1.8rem 'Roboto', sans-serif;
+    color: var(--color-text);
+}
 .recover-Password{
     display: flex;
     flex-direction: column;
@@ -65,13 +78,14 @@ body{
     text-align: center;
     font: 400 1.8rem 'Roboto', sans-serif;
     color: var(--color-text);
+    width:90vw;
 }
 #user-email::placeholder{
     color: var(--color-text);
 }
 
 #title-Logo{
-    margin: 6rem;
+    margin: 8rem;
     font-size: 5rem;
 
 }
