@@ -11,6 +11,6 @@
 
 .animate-up{
     animation: up;
-    animation-duration: 1600ms;
+    animation-duration: 2000ms;
     animation-fill-mode: backwards;
 }
