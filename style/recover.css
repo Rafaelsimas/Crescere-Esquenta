@@ -202,6 +202,14 @@ nav a:hover{
  #user-email::placeholder{
      color: var(--color-text);
      font: 400 3rem 'Roboto', sans-serif;
- }
+    }
+
+#send-area h1{
+    margin-top: 5rem;
+    font: 400 2.8rem 'Roboto', sans-serif;
+    background-color: #FF748E;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
 
 }
